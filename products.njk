@@ -7,23 +7,31 @@ layout: layout.njk
   {
     "name": "Gaming PC",
     "price": 1499,
-    "description": "High-performance gaming desktop."
+    "description": "High-performance gaming desktop.",
+    "image": "/images/gaming-pc.jpg"
   },
   {
     "name": "Mechanical Keyboard",
     "price": 129,
-    "description": "Responsive mechanical keyboard for gaming."
+    "description": "Responsive mechanical keyboard for gaming.",
+    "image": "/images/keyboard.jpg"
   },
   {
     "name": "Gaming Headset",
     "price": 89,
-    "description": "Comfortable headset with immersive sound."
+    "description": "Comfortable headset with immersive sound.",
+    "image": "/images/headset.jpg"
   }
   ] %}
   <div class="columns is-multiline">
     {% for product in products %}
     <div class="column is-one-third">
       <div class="card">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="{{ product.image }}" alt="{{ product.name }}">
+          </figure>
+        </div>
         <div class="card-content">
           <h2 class="title is-4">{{ product.name }}</h2>
           <p class="subtitle is-6">€{{ product.price }}</p>

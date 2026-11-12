@@ -34,18 +34,18 @@ Images are taken from [Unsplash](https://unsplash.com/).
 
 ### Gaming PC
 - Image: gaming-pc.jpg
-- Photographer:
-- URL:
+- Photographer: ELLA DON
+- URL: https://unsplash.com/photos/gaming-desk-with-monitors-and-computer-0oqMvhc1ntw
 
 ### Mechanical Keyboard
 - Image: keyboard.jpg
-- Photographer:
-- URL:
+- Photographer: Stefan Tan
+- URL: https://unsplash.com/photos/black-and-orange-computer-keyboard-KYw1eUx1J7Y
 
 ### Gaming Headset
 - Image: headset.jpg
-- Photographer:
-- URL:
+- Photographer: Fausto Sandoval
+- URL: https://unsplash.com/photos/black-and-red-corded-headphones-on-white-table-w5m3PIGvkqI
 
 ## Notes
 This is a personal practice project. Products and prices are examples and are not real listings.
