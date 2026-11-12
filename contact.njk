@@ -1,7 +1,36 @@
 ---
 layout: layout.njk
 ---
-<h1>Contact Us</h1>
-<p>Have a question about our products? Get in touch!</p>
-<h2>Customer Support</h2>
-<p>Our team is here to help with your gaming and technology questions.</p>
+<section class="section">
+  <h1 class="title is-2">Contact Us</h1>
+  
+  <p class="mb-5">
+    Have a question about our products?
+    Send us a message!
+  </p>
+  <form>
+    <div class="field">
+      <label class="label" for="name">Name</label>
+      <div>
+        <input class="input" type="text" id="name" name="name" placeholder="Your name" required>
+      </div>
+    </div>
+    <div class="field">
+      <label class="label" for="email">Email</label>
+      <div class="control">
+        <input class="input" type="email" id="email" name="email" placeholder="Your email" required>
+      </div>
+    </div>
+    <div class="field">
+      <label class="label" for="message">Message</label>
+      <div class="control">
+        <textarea class="textarea" id="message" name="message" placeholder="Your message" required></textarea>
+      </div>
+    </div>
+    <div class="control">
+      <button class="button is-primary" type="submit">
+        Send Message
+      </button>
+    </div>
+  </form>
+</section>

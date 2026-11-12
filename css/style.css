@@ -26,3 +26,16 @@ section .image img {
 .button {
     font-weight: bold;
 }
+
+/* Mobile Navigation */
+
+@media screen and (max-width: 768px) {
+    .mobile-nav .nacbar-start {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-nav .navbar-item {
+        text-align: center;
+    }
+}
