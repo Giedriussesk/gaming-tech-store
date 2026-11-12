@@ -1,0 +1,28 @@
+/* Product cards */
+
+.card {
+    height: 100%;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px)
+}
+
+.card-image img {
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+/* Homepage */
+
+section .image img {
+    border-radius: 10px;
+}
+
+.button {
+    font-weight: bold;
+}
