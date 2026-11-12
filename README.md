@@ -18,6 +18,17 @@ View Gaming & Tech Store - https://gaming-tech-stor3.netlify.app/
 - Bulma
 - Git and GitHub
 
+## Techniques Used
+- Nunjucks Templates: Used reusable layouts and includes for the header, navigation and footer
+- Nunjucks Loops: Used loops to display products without repeating HTML code
+- Objects: Stored product names, prices, descriptions and image paths in objects
+- Bulma Cards: Created a responsive product grid using Bulma columns and cards
+- CSS: Added hover effects, image styling and media queries for mobile screens
+- HTML Forms: Created a contact form with required fields and email validation
+- Eleventy: Used passthrough copying for CSS and images
+- Git: Used commits to track changes throughout development
+- GitHub and Netlify: Uploaded the project to GitHub and deployed it using Netlify
+
 ## Getting Started
 Install dependencies:
 
