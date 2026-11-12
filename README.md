@@ -5,6 +5,11 @@ This is a practice website I'm building to improve my web development skills usi
 
 The website has four pages: Home, Products, About and Contact.
 
+## Live Website
+This website is deployed using Netlify.
+
+View Gaming & Tech Store - https://gaming-tech-stor3.netlify.app/
+
 ## Technologies Used
 - HTML
 - CSS
@@ -48,4 +53,8 @@ Images are taken from [Unsplash](https://unsplash.com/).
 - URL: https://unsplash.com/photos/black-and-red-corded-headphones-on-white-table-w5m3PIGvkqI
 
 ## Notes
-This is a personal practice project. Products and prices are examples and are not real listings.
+This is a personal practice project built to improve my web development skills. 
+The products and prices are examples and are not real listings. 
+The contact form is for demonstration purposes only.
+The source code is hosted on GitHub.
+
